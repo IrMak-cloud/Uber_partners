@@ -1,0 +1,25 @@
+
+=label_bg_white
+	background-color: #FFFFFF
+	color: #070716
+	font-weight: 400
+=title_bg_white
+	color: #FFFFFF
+	margin-top: 30px
+	line-height: 48px
+=h3_bg_white
+	@include for_h3
+	color: #FFFFFF
+	margin-top: 16px
+
+@mixin btn_hover
+	&:hover 
+		background-image: none
+		background-color: $main-color
+
+@mixin for_h3
+	font-weight: 400
+	font-size: 17px
+	text-align: center
+	color: #222222
+	margin: 0

@@ -1,0 +1,284 @@
+//------------------------ от 992px
+@media (max-width: 1200px)
+	.menu
+		& &_link
+			font-size: 13px
+		& &_item
+			padding-right: 20px
+	.promo
+		h1
+			font-size: 50px
+	.reasons
+		& &_cont
+			align-items: flex-start
+			& .reasons_text
+				width: 313px
+			& .reasons_text_sec
+				width: 311px
+				p 
+					margin-top: 0px
+
+//------------------------от 786px 
+@media (max-width: 992px)
+
+	body 
+		.reasons
+			padding: 60px 0 65px 0
+
+		header nav 
+			.menu
+				padding: 13px 0px
+				&_link
+					font-size: 10px
+				&_item
+					padding-right: 21px
+
+	.subheader
+			& &_logo >img
+				width: 100%
+			& &_official
+				font-size: 10px
+			& &_btn
+				font-size: 10px
+				width: 100%
+				height: 30px
+				margin-top: 25px
+
+	.promo
+		h1
+			font-size: 40px
+		& &_subheader
+			font-size: 30px
+
+	.reasons 
+		& &_cont
+			flex-direction: column
+			text-align: center
+			align-items: center
+		& &_round
+			margin-right: 0px
+		& &_text, &_text_sec
+			margin-top: 20px
+
+	body 
+		.title 
+			font-size: 30px
+		.reasons
+			padding: 55px 0 45px 0
+		.mobile
+			& h3 
+				font-size: 16px
+				margin-top: 12px
+			& .mobile_block .mobile_discr 
+				font-size: 15px
+				padding: 85px 35px 0 35px
+		.car 
+			& .car_descr
+				color: #ffffff
+				bottom: 130px
+			& .bg_car
+				width: 0%
+
+		.footer
+			min-height: 190px
+			.social
+				margin: 12px 0 30px 0 
+				right: 50%
+				transform: translateX(50%)
+			.download
+				margin: 60px auto
+				right: 50%
+				transform: translateX(50%)
+
+
+// ------------------------от 576px
+@media (max-width: 767px)
+	header 
+		.container .menu
+			position: fixed
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			left: -100%
+			top: 0px
+			height: 100vh
+			width: 50%
+			padding: 20px 15px
+			background-color: rgba(0,0,0, 0.8)
+			transition: 0.6s all
+			&_item 
+				padding-right: 0px
+				border-right: 0px
+			&_link
+				font-size: 20px
+			&_active
+				left: 0px
+
+		nav .hamburger
+			display: block 
+			position: absolute
+			right: 10px
+			top: 50%
+			transform: translateY(-50%)
+			height: 12px
+			width: 25px
+
+			span 
+				display: block
+				width: 100%
+				height: 2px
+				margin-bottom: 2px
+				background-color: #ffffff
+				transition: 0.5s all
+			
+			&_active 
+				span
+					margin-bottom: -2px
+					&:first-child
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)
+
+	.subheader
+		.xs-hidden
+			display: none
+		.xs-visible
+			display: block
+			text-align: center
+		& &_phone
+			display: block
+			margin-top: 15px
+			font-size: 16px
+			font-weight: 400px
+		& &_btn
+			display: block
+			width: 180px
+			height: 30px
+			margin: 0 auto
+			margin-top: 10px
+
+	.promo
+		h1
+			font-size: 35px
+			line-height: 45px
+		& &_subheader
+			font-size: 25px
+
+	body 
+		.title 
+			font-size: 25px
+		.reasons
+			padding: 55px 0 45px 0
+			& .reasons_round
+				margin-right: 0px
+		.mobile
+			& h3 
+				font-size: 14px
+				margin-top: 15px
+			& .mobile_block .mobile_discr 
+				font-size: 20px
+				padding: 115px 35px 0 35px
+
+		.car
+			& .car_descr
+				bottom: 95px
+			& .bg_car 
+				width: 0%
+
+		.footer
+			min-height: 190px
+			.social
+				margin: 21px 0 30px 0
+				right: 50%
+				transform: translateX(50%)
+// --------------------------------------------------
+@media (max-width: 575px)
+	body
+		header 
+			height: 32px
+			.container .menu
+				width: 85%
+			nav 
+				height: 32px
+		.subheader
+			height: 60px
+			top: 32px
+			& .subheader_official
+				display: none
+			& .subheader_logo
+				margin-top: 16px
+				width: 160px
+				padding-left: 15px
+			& .subheader_phone
+				font-size: 12px
+				font-weight: 400px
+				margin-top: 11px
+			& .subheader_btn
+				width: 110px
+				height: 22px
+				font-size: 10px
+				margin-top: 5px
+		.promo
+			padding: 103px 0 34px 0
+			min-height: 400px
+			h1
+				font-size: 30px
+				font-weight: 900px
+				line-height: 35px
+			& .promo_subheader
+				font-size: 20px
+				font-weight: 700px
+				line-height: 23px
+			& .promo_descr
+				display: none
+			& .promo_btn
+				margin-top: 71px
+				width: 189px
+				height: 50px
+				font-size: 16px
+				white-space: nowrap
+				padding: 13px 9px
+		.title
+			font-weight: 700
+			font-size: 16px
+			line-height: 16px
+			margin-top: 16px
+		.reasons
+			padding: 22px 0 36px 0
+			& .reasons_cont
+				margin-top: 24px
+			& .reasons_round
+				width: 100px
+				height: 100px
+				margin-right: 0px
+		.mobile
+			padding: 28px 0 43px 0
+			& h3
+				margin-top: 9px
+				font-size: 14px
+				line-height: 21px
+				font-weight: 400
+		.car 
+			padding: 27px 0 31px 0
+			min-height: 393px
+			.title
+				display: none
+			h3 
+				display: none
+			.auto_pic
+				margin-top: 34px auto 0 auto
+		.footer
+			.social
+				margin: 9px 0 0 0
+			&_main
+				margin-top: 21px
+				a 
+					font-size: 14px
+					font-weight: 300px
+					margin: 0 6px
+			&_second
+				flex-wrap: wrap
+
+
