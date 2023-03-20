@@ -28,6 +28,13 @@ git clone https://github.com/IrMakDak/Food-prog-UDEMY.git
 
 ---
 
+### Screenshots:
+<img width="1343" alt="Screenshot 2023-03-20 at 12 30 48" src="https://user-images.githubusercontent.com/54810215/226327738-d3c850f6-cf59-4349-bd12-9f15588dc191.png">
+<img width="1313" alt="Screenshot 2023-03-20 at 12 31 09" src="https://user-images.githubusercontent.com/54810215/226327793-1c4b4a1e-cb6d-450f-89ce-70a4cc1e9f55.png">
+
+
+---
+
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/ir-makedonskaya-ximkd/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
